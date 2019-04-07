@@ -23,7 +23,6 @@ int drawCanvas(vector<vector<int>> canvas){
     // Check that the window was successfully created
     if (window == NULL) {
         // In the case that the window could not be made...
-        printf("Could not create window: %s\n", SDL_GetError());
         return 1;
     }
 
@@ -63,4 +62,5 @@ int drawCanvas(vector<vector<int>> canvas){
     SDL_DestroyWindow(window);
     // Clean up
     SDL_Quit();
+	return 0;
 }

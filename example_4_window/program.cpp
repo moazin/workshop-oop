@@ -8,8 +8,8 @@ int drawCanvas(vector<vector<int>> canvas);
 
 int main(void){
     vector<vector<int>> canvas;
-    int height = 1000;
-    int width = 1000;
+    int height = 500;
+    int width = 500;
     for(int i = 0; i < height; i++)
     {
         vector<int> row; 
